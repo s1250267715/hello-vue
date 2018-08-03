@@ -1,5 +1,5 @@
 <template>
-  <div :class="$style.hello">
+  <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
       For guide and recipes on how to configure / customize this project,<br>
@@ -40,9 +40,9 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang='less' module >
+<style lang='less' >
 .hello {
-  border: 1px solid red;
+  border: 2px solid red;
   h3 {
     margin: 40px 0 0;
   }
